@@ -10,7 +10,7 @@ async function main() {
   const Token = await ethers.getContractFactory("Token");
   const token = await Token.deploy(
     "🅰️🅱️🅾️🅱️🅰️",
-    "🅱️" //, { value: lockedAmount }
+    "🅱️"
   );
 
   await token.deployed();
