@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "deploy": "npx hardhat run scripts/deploy.ts --network goerli",
+    "web3": "npx hardhat run scripts/web3.ts --network goerli",
     "build": "npx hardhat compile"
   },
   "repository": {
@@ -20,7 +21,8 @@
   "homepage": "https://github.com/doritosxxx/smart-contracts#readme",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
-    "hardhat": "^2.11.2"
+    "hardhat": "^2.11.2",
+    "web3": "^1.8.0"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^4.7.3",
